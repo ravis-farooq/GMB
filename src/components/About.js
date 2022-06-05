@@ -2,12 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <section class="bg-white dark:bg-gray-800">
-      <div class="container px-6 py-8 mx-auto">
+    <section class=" bg-white dark:bg-gray-800 sm:px-32 xs:px-0 ">
+      <div class=" px-6 py-8 mx-auto">
         <div class="items-center lg:flex">
           <div class="lg:w-1/2">
             <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">
-              Who I am
+              Who are GMB?
             </h2>
 
             <p class="mt-4 text-gray-500 dark:text-gray-400 lg:max-w-md">

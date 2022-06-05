@@ -7,7 +7,7 @@ function Service() {
         <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div class="lg:col-start-2 lg:max-w-2xl ml-auto">
             <p class="text-base leading-6 text-indigo-500 font-semibold uppercase">
-              Interactive
+              Service
             </p>
             <h4 class="mt-2 text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
               Interactivity between team members is the key of the success.
@@ -102,7 +102,8 @@ function Service() {
           </div>
           <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
             <div class="relative space-y-4">
-              <div class="flex items-end justify-center lg:justify-start space-x-4">
+              {/* <div class="flex items-end justify-center lg:justify-start space-x-4"> */}
+              <div class="flex flex-wrap gap-5 items-end justify-center lg:justify-end space-x-4">
                 <img
                   class="rounded-lg shadow-lg w-32 md:w-56"
                   width="200"

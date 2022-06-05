@@ -15,7 +15,7 @@ function CarouselItem() {
           {/* </div> */}
         </div>
 
-        <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
+        <div class="max-w-xl sm:w-full  sm:mx-auto px-6 py-12 lg:max-w-5xl lg:w-1/2">
           <h2 class="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">
             Build Your New{" "}
             <span class="text-blue-600 dark:text-blue-400">Idea</span>
