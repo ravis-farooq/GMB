@@ -4,3 +4,6 @@
 
     scroll-behavior: smooth;
 }
+.bg-img{
+  background-image: url('./assets/GMB-1.webp');
+}

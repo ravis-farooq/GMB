@@ -6,7 +6,7 @@ module.exports = {
         "5/2": "5 / 2",
       },
       screens: {
-        xs: { max: "400px" },
+        xs: { max: "430px" },
       },
     },
   },

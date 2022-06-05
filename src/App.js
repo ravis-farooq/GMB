@@ -3,9 +3,9 @@ import { useEffect } from "react";
 import "./App.css";
 import About from "./components/About";
 import CarouselSection from "./components/Carousel";
-import CarouselItem from "./components/CarouselItem";
+
 import Contact from "./components/Contact";
-import Header from "./components/Header";
+
 import Hero from "./components/Hero";
 import Product from "./components/Product";
 import Service from "./components/Service";
@@ -19,11 +19,11 @@ function App() {
     });
 
     // Add animation bindings to elements
-    lax.addElements(".a", {
+    lax.addElements(".herotext", {
       scrollY: {
         translateY: [
           ["elInY", "elCenterY", "elOutY"],
-          [0, -50, -90],
+          [0, 0, 40],
           {
             inertia: -1,
             inertiaMode: "absolute",

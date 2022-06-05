@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-
+import Logo from "../assets/Final gmb-04.png";
 function Header() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   const handleToggle = () => {
     setToggle((prev) => !prev);
   };
@@ -13,7 +13,7 @@ function Header() {
           <div class="flex items-center justify-between h-16">
             <div class="w-full justify-between flex items-center">
               <a class="flex-shrink-0" href="/">
-                <img class="h-8 w-8" src="/icons/rocket.svg" alt="Workflow" />
+                <img class=" w-40 object-contain" src={Logo} alt="Workflow" />
               </a>
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">

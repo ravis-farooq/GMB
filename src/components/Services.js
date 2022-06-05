@@ -1,12 +1,14 @@
 import React from "react";
 import Img from "../assets/GMB-8.webp";
-function Product({ text = "I'm%20interested%20in%20your%20car%20for%20sale" }) {
+function Services({
+  text = "I'm%20interested%20in%20your%20car%20for%20sale",
+}) {
   return (
     <div class="flex flex-col items-center justify-center xs:w-full max-w-sm mx-auto">
       <div
         class="w-full lake h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md "
         style={{
-          backgroundImage: `url(${require("../assets/GMB-8.webp")})`,
+          backgroundImage: `url(${require("../assets/GMB-2.webp")})`,
         }}
       ></div>
 
@@ -19,7 +21,7 @@ function Product({ text = "I'm%20interested%20in%20your%20car%20for%20sale" }) {
           <span class="font-bold text-gray-800 dark:text-gray-200">$129</span>
           <a target="_blank" href={`https://wa.me/15551234567?text=${text}`}>
             <button class="px-2 flex items-center py-1 text-xs font-semibold text-gray-700 uppercase transition-colors duration-200 transform bg-white rounded hover:bg-gray-100 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-              <img src="whatsapp.gif" width={"20px"} alt="" /> Order Now
+              <img src="whatsapp.gif" width={"20px"} alt="" /> Book Now
             </button>
           </a>
         </div>
@@ -28,4 +30,4 @@ function Product({ text = "I'm%20interested%20in%20your%20car%20for%20sale" }) {
   );
 }
 
-export default Product;
+export default Services;

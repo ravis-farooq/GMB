@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import CarouselItem from "./CarouselItem";
 function CarouselSection() {
   return (
-    <div>
+    <div className="">
       <Carousel
         autoPlay
         stopOnHover
@@ -15,6 +15,10 @@ function CarouselSection() {
         showArrows={false}
         labels={false}
         showThumbs={false}
+        swipeScrollTolerance={150}
+        swipeable={true}
+        verticalSwipe="standard"
+        preventMovementUntilSwipeScrollTolerance
       >
         <CarouselItem />
         <CarouselItem />

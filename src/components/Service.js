@@ -1,4 +1,6 @@
 import React from "react";
+import Product from "./Product";
+import Services from "./Services";
 
 function Service() {
   return (
@@ -103,33 +105,11 @@ function Service() {
           <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
             <div class="relative space-y-4">
               {/* <div class="flex items-end justify-center lg:justify-start space-x-4"> */}
-              <div class="flex flex-wrap gap-5 items-end justify-center lg:justify-end space-x-4">
-                <img
-                  class="rounded-lg shadow-lg w-32 md:w-56"
-                  width="200"
-                  src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
-                  alt="1"
-                />
-                <img
-                  class="rounded-lg shadow-lg w-40 md:w-64"
-                  width="260"
-                  src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
-                  alt="2"
-                />
-              </div>
-              <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
-                <img
-                  class="rounded-lg shadow-lg w-24 md:w-40"
-                  width="170"
-                  src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
-                  alt="3"
-                />
-                <img
-                  class="rounded-lg shadow-lg w-32 md:w-56"
-                  width="200"
-                  src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
-                  alt="4"
-                />
+              <div class="flex flex-wrap gap-5 items-end justify-center lg:justify-start space-x-4">
+                <Services />
+                <Services />
+                <Services />
+                <Services />
               </div>
             </div>
           </div>

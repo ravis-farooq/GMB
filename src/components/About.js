@@ -1,5 +1,5 @@
 import React from "react";
-
+import Img from "../assets/GMB-7.webp";
 function About() {
   return (
     <section class=" bg-white dark:bg-gray-800 sm:px-32 xs:px-0 ">
@@ -69,7 +69,7 @@ function About() {
               <div class="max-w-lg">
                 <img
                   class="object-cover object-center w-full h-64 rounded-md shadow"
-                  src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                  src={Img}
                   alt=""
                 />
               </div>
