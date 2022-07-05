@@ -4,7 +4,7 @@ function Services({
   text = "I'm%20interested%20in%20your%20car%20for%20sale",
 }) {
   return (
-    <div class="flex flex-col items-center justify-center xs:w-full max-w-sm mx-auto">
+    <div class="flex flex-col items-center justify-center xs:w-full max-w-sm">
       <div
         class="w-full lake h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md "
         style={{

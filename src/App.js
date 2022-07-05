@@ -143,9 +143,9 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div class="mt-10 lg:col-start-2 ml-auto lg:-mx-4 relative relative-20 lg:mt-0 ">
+            <div class="mt-10 lg:col-start-2   lg:mt-0 ">
               <div class="relative space-y-4">
-                <div class="flex flex-wrap gap-5 items-end justify-center lg:justify-end space-x-4">
+                <div class="flex flex-wrap gap-10 ">
                   <Product />
                   <Product />
                   <Product />

@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../assets/GMB-7.webp";
 function About() {
   return (
-    <section class=" bg-white dark:bg-gray-800 sm:px-32 xs:px-0 ">
+    <section class=" bg-white max-w-screen-xl mx-auto  dark:bg-gray-800 sm:px-32 lg:px-0 xs:px-0 ">
       <div class=" px-6 py-8 mx-auto">
         <div class="items-center lg:flex">
           <div class="lg:w-1/2">

@@ -102,10 +102,10 @@ function Service() {
               </li>
             </ul>
           </div>
-          <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
+          <div class="mt-10  lg:mt-0 lg:col-start-1">
             <div class="relative space-y-4">
               {/* <div class="flex items-end justify-center lg:justify-start space-x-4"> */}
-              <div class="flex flex-wrap gap-5 items-end justify-center lg:justify-start space-x-4">
+              <div class="flex flex-wrap gap-10  ">
                 <Services />
                 <Services />
                 <Services />

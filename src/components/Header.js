@@ -45,7 +45,7 @@ function Header() {
             </div>
             <div class="-mr-2 flex md:hidden">
               <button
-                onClick={handleToggle}
+                onClick={() => handleToggle()}
                 class="text-gray-300 dark: hover:text-gray-100 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
               >
                 <svg
@@ -62,6 +62,7 @@ function Header() {
             </div>
           </div>
         </div>
+      
         <div
           class={`md:hidden transition-all duration-1000 ${
             toggle ? "opacity-0 max-h-0" : "opacity-100 max-h-[440px]"
